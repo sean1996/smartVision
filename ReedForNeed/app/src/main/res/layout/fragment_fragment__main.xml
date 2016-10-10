@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Fragment_MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Start Reading!"
+            android:background="#FF7676"
+            android:textSize="25sp"
+            android:textColor="#EEEEEE"
+            android:layout_weight="0.4"
+            android:id="@+id/startReadingButton"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="History"
+                android:textSize="25sp"
+                android:textColor="#EEEEEE"
+                android:background="#5DAE8B"
+                android:id="@+id/historyButton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="Language"
+                android:textSize="25sp"
+                android:textColor="#EEEEEE"
+                android:background="#466C95"
+                android:id="@+id/settingButton"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
